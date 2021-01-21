@@ -1,3 +1,7 @@
 body{
     background: #BDBDBD;
 }
+.card{
+    background-color: rgba(192,192,192);
+    width: 900px;
+}
