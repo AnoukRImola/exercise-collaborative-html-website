@@ -1,6 +1,29 @@
 <!-- your html code here -->
 <div class="container">
     <h1>Contact</h1>
-    <h2>daniel probando</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, a unde minus possimus asperiores fugiat sequi sapiente ab harum tenetur esse exercitationem aspernatur</p>
+    <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, a unde minus possimus
+        asperiores fugiat sequi sapiente ab harum tenetur esse exercitationem aspernatur</p>
+
+    <div class="card">
+        <form>
+            <div class="mb-3 ml-3 mt-3 row ">
+                <label class="col-sm-2 col-form-label">Your E-mail</label>
+                <div class="col-sm-10 ">
+                    <input type="text" readonly class="form-control-plaintext" id="staticEmail"
+                        value="email@example.com">
+                </div>
+            </div>
+            <div class="mb-3 ml-3 me-3 row ">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Your Message</label>
+                <div class="col-sm-10">
+                    <textarea class="form-control" rows="3"></textarea>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <input class="btn btn-primary " type="button" value="Cancel">
+                </div>
+            </div>
+        </form>
+    </div>
 </div>
