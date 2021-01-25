@@ -2,3 +2,59 @@ body{
     background: #BDBDBD;
 }
 
+.prop-div1{
+    width: 100vw;
+    height: 100vh;
+    
+    
+    background-image: url(https://uni-span.com.au/wp-content/uploads/2018/02/2_Blog_UniSpan.jpeg);
+    background-size: cover;
+    
+    position: relative;
+    }
+    
+    .texto1{
+    background-color:white;
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+    position:absolute;
+    top: 13%;
+    
+    width: 100%;
+    height: 22%;
+    border:1px solid red;
+    
+    font-size: 17vh;
+    margin: 0;
+    /* margin-bottom: 50%; */
+    display: table-cell;
+    vertical-align: middle;
+    
+    
+    }
+    
+    
+    .texto2{
+        background-color:white;
+        text-align: center;
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        
+        position:absolute;
+        top: 40%;
+        
+        width: 100%;
+        
+        
+        font-size: 14vh;
+        /* margin: 0; */
+        /* margin-bottom: 50%; */
+        display: table-cell;
+        vertical-align: middle;
+        
+        
+        }
